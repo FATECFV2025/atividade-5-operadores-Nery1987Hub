@@ -1,4 +1,5 @@
 public class Operadores {
+        // OPERADORES ARITMÉTICOS
     public float adicao (float x, float y)
     {
         return x + y;
@@ -19,7 +20,7 @@ public class Operadores {
         return x - y;
     }
 
-        // OPERADORES DE COMPARAÇÃO
+        // OPERADORES DE ATRIBUIÇÃO
     public float maisIgual(float x, float y)
     {
         return x += y;
@@ -45,4 +46,5 @@ public class Operadores {
         return x = y;
     }
 
+        // OPERADORES LÓGICOS
 }
