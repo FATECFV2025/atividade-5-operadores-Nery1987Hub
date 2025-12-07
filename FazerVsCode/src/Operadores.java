@@ -74,4 +74,35 @@ public class Operadores {
     {
         return !(x == y);
     }
+
+        // OPERADORES DE COMPARAÇÃO
+    public boolean igualIgual (float x, float y)
+    {
+        return x == y;
+    }
+    
+    public boolean naoIgual (float x, float y)
+    {
+        return x != y;
+    }
+
+    public boolean menor (float x, float y)
+    {
+        return x < y;
+    }
+
+    public boolean maior (float x, float y)
+    {
+        return y < y;
+    }
+
+    public boolean menorIgual (float x, float y)
+    {
+        return x <= x;
+    }
+
+    public boolean maiorIgual(float x, float y)
+    {
+        return y >= x;
+    }
 }
