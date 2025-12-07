@@ -37,5 +37,13 @@ public class App {
         System.out.println("a ^ b: " + op.exclusivo(a, b));
         System.out.println("a == b é false. !(a == b): " + op.nao(a, b));
         System.out.println("_________________");
+
+        System.out.println("x == y: " + op.igualIgual(x, y));
+        System.out.println("x != x: " + op.naoIgual(x, y));
+        System.out.println("x < y: " + op.menor(x, y));
+        System.out.println("y > y: " + op.maior(x, y));
+        System.out.println("x <= x: " + op.menorIgual(x, y));
+        System.out.println("y >= x: " + op.maiorIgual(x, y));
+        System.out.println("_________________");
     }
 }
