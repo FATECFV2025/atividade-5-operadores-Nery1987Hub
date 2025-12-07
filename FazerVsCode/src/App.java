@@ -7,11 +7,14 @@ public class App {
         Scanner sc = new Scanner(System.in);
 
         System.out.println();
-        int x = sc.nextInt();
+        float x = sc.nextInt();
 
         System.out.println();
-        int y = sc.nextInt();
+        float y = sc.nextInt();
 
+        System.out.println(op.adicao(x, y));
         System.out.println(op.subt(x, y));
+        System.out.println(op.multi(x, y));
+        System.out.println(op.divis(x, y));
     }
 }
