@@ -47,4 +47,31 @@ public class Operadores {
     }
 
         // OPERADORES LÓGICOS
+    public boolean andAnd (boolean x, boolean y)
+    {
+        return (x == x && y == x);
+    }
+    public boolean and (boolean x, boolean y)
+    {
+        return (y == y & y == x);
+    }
+
+    public boolean orOR (boolean x, boolean y)
+    {
+        return (y != y || y == y);
+    }
+    public boolean or (boolean x, boolean y)
+    {
+        return (y != y | x == x);
+    }
+
+    public boolean exclusivo (boolean x, boolean y)
+    {
+        return x ^ y;
+    }
+
+    public boolean nao (boolean x, boolean y)
+    {
+        return !(x == y);
+    }
 }
